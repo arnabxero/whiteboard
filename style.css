@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#myCanvas {
+  cursor: crosshair;
+  position: fixed;
+  border: 2px solid black;
+  margin-left: -350px;
+}
+
+#actions {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#clear {
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#clear:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 21, 21);
+}
+
+#down {
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#down:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 21, 21);
+}
